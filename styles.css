@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+    /* position: relative; */
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+main {
+    background-color: white;
+    width: 340px;
+    height: 270px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    /* position: relative; */;
+}
+
+
+
+img {
+    width: 170px;
+    height: 270px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    padding-right: 20px;
+}
+
+.top {
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 103, 103);
+    padding-top: 20px;
+    letter-spacing: 3.5px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+p {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 103, 103);
+    line-height: 1.6;
+    margin-right: 22px;
+    margin-bottom: 18px;
+}
+
+.price {
+    font-size: 18px;
+    color: hsl(158, 36%, 37%);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: normal;
+    float: rleft;
+}
+.discount {
+    float: right;
+    font-size: 9px;
+    margin-top: -16px;
+    margin-right: 38px; 
+    color: rgb(139, 139, 139);
+ }
+button {
+    width: 130px;
+    height: 30px;
+    background-color:hsl(158, 36%, 37%);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -200px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: hsl(158, 42%, 15%);
+}
+
+@media only screen and (max-width: 376px) {
+    main {
+        background-color: rgb(255, 255, 255);
+        height: 610px;
+        margin: auto;
+        margin-top:30px;
+        border-radius: 12px;
+    }
+
+    img {
+        width: 100%;
+        height:100%x;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 20px;
+        float: none;
+        padding-right: 20px;
+        margin-bottom: -10px;
+    }
+    
+    .top {
+        padding-top: 10px;
+        letter-spacing: 4px;
+        font-size: 12px;
+        padding-left: 25px;
+        margin-bottom: 9px;
+        color: rgb(105, 103, 103);
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 1;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        padding-left: 25px;
+    }
+    
+    p {
+        font-size: 14px;
+        font-family: arial;
+        color: rgb(105, 103, 103);
+        line-height: 1.5;
+        padding-left: 25px;
+        padding-right: 5px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        letter-spacing: 0.8px;
+    }
+   
+    .price {
+        font-size: 29px;
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+        font-weight: bolder;
+        margin-top: -2px;
+        float: left;
+        padding-left: 25px;
+        margin-bottom:-3px;
+    }
+
+    .discount {
+        float: right;
+        font-size: 15px;
+        margin-top: 7px;
+        margin-right: 131px; 
+        color: rgb(139, 139, 139);
+ }
+
+    button {
+        width: 290px;
+        height: 40px;
+        margin-left: 25px;
+        margin-top: 80px;
+        border-radius: 10px;
+        margin-top: 17px;
+        font-size: 13px;
+    }
+    
+    button:hover {
+        background-color: hsl(158, 42%, 15%);
+    }
+
+    
+}
